@@ -1,0 +1,49 @@
+.container3 {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #141414;
+    
+}
+
+.container3 p {
+    color: #fff;
+}
+
+.redesSociais1 {
+    width: 20px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.5s ease;
+}
+
+.redesSociais1:hover {
+    transform: scale(1.09);
+}
+
+#whats1 {
+    background-color: orange;
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#facebook1 {
+    background-color: orange;
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#insta1 {
+    background-color: orange;
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
