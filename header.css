@@ -1,0 +1,97 @@
+header {
+    background-color: #141414;
+}
+
+.container1 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: auto;
+}
+
+#anuncie {
+    display: flex;
+    align-items: center;
+}
+
+#anuncie img {
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #535252;
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+.barras {
+    display: none;
+    width: 30px;
+}
+
+@media (max-width: 710px){
+    .link {
+        font-size: 10px;
+    }
+    #anuncie p{
+        font-size: 15px;
+    }
+    .redesSociais{
+        width: 10px;
+    }
+}
+
+@media (max-width: 620px) {
+    .redesSociais {
+        display: none;
+    }
+    .container1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:450px) {
+    .link {
+        display: none;
+    }
+    .barras {
+        display: flex;
+    }
+    .redesSociais {
+        display: none;
+    }
+}
+
+.redesSociais {
+    width: 20px;
+    margin: 5px;
+}
+
+#whats {
+    background-color: orange;
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#facebook {
+    background-color: orange;
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#insta {
+    background-color: orange;
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
