@@ -25,10 +25,18 @@ header {
 }
 
 .link {
+    display: inline-block;
     text-decoration: none;
     color: #535252;
     margin: 0 5px;
     font-size: 13px;
+    transition: 0.5s ease;
+}
+
+.link:hover {
+    color: #fff;
+    text-decoration: underline;
+    transform: scale(1.05);
 }
 
 .barras {
@@ -36,14 +44,16 @@ header {
     width: 30px;
 }
 
-@media (max-width: 710px){
+@media (max-width: 710px) {
     .link {
         font-size: 10px;
     }
-    #anuncie p{
+
+    #anuncie p {
         font-size: 15px;
     }
-    .redesSociais{
+
+    .redesSociais {
         width: 10px;
     }
 }
@@ -52,6 +62,7 @@ header {
     .redesSociais {
         display: none;
     }
+
     .container1 {
         display: flex;
         justify-content: space-evenly;
@@ -62,9 +73,11 @@ header {
     .link {
         display: none;
     }
+
     .barras {
         display: flex;
     }
+
     .redesSociais {
         display: none;
     }
@@ -73,6 +86,12 @@ header {
 .redesSociais {
     width: 20px;
     margin: 5px;
+    display: inline-block;
+    transition: 0,5s ease;
+}
+
+.redesSociais:hover {
+    transform: scale(1.09);
 }
 
 #whats {
